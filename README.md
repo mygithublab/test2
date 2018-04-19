@@ -1,6 +1,6 @@
 # Template for deploy nagios docker of CentOS
 
-Testing or template of monitoring printer
+Testing or template of nagios monitoring printer
 
 Standalone mode:
 

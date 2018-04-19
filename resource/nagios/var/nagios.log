@@ -1,0 +1,27 @@
+[1523871698] Nagios 4.3.4 starting... (PID=200)
+[1523871698] Local time is Mon Apr 16 17:41:38 CST 2018
+[1523871698] LOG VERSION: 2.0
+[1523871698] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1523871698] qh: core query handler registered
+[1523871698] nerd: Channel hostchecks registered successfully
+[1523871698] nerd: Channel servicechecks registered successfully
+[1523871698] nerd: Channel opathchecks registered successfully
+[1523871698] nerd: Fully initialized and ready to rock!
+[1523871698] wproc: Successfully registered manager as @wproc with query handler
+[1523871698] wproc: Registry request: name=Core Worker 202;pid=202
+[1523871698] wproc: Registry request: name=Core Worker 203;pid=203
+[1523871698] wproc: Registry request: name=Core Worker 208;pid=208
+[1523871698] wproc: Registry request: name=Core Worker 205;pid=205
+[1523871698] wproc: Registry request: name=Core Worker 213;pid=213
+[1523871698] wproc: Registry request: name=Core Worker 211;pid=211
+[1523871698] wproc: Registry request: name=Core Worker 210;pid=210
+[1523871698] wproc: Registry request: name=Core Worker 209;pid=209
+[1523871698] wproc: Registry request: name=Core Worker 206;pid=206
+[1523871698] wproc: Registry request: name=Core Worker 214;pid=214
+[1523871698] wproc: Registry request: name=Core Worker 207;pid=207
+[1523871698] wproc: Registry request: name=Core Worker 215;pid=215
+[1523871698] Successfully launched command file worker with pid 242
+[1523871708] Warning: Attempting to execute the command "/usr/local/nagiosgraph/bin/insert.pl" resulted in a return code of 127.  Make sure the script or binary you are trying to execute actually exists...
+[1523871718] Warning: Attempting to execute the command "/usr/local/nagiosgraph/bin/insert.pl" resulted in a return code of 127.  Make sure the script or binary you are trying to execute actually exists...
+[1523871728] Warning: Attempting to execute the command "/usr/local/nagiosgraph/bin/insert.pl" resulted in a return code of 127.  Make sure the script or binary you are trying to execute actually exists...
+[1523871738] Warning: Attempting to execute the command "/usr/local/nagiosgraph/bin/insert.pl" resulted in a return code of 127.  Make sure the script or binary you are trying to execute actually exists...
