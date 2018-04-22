@@ -175,6 +175,7 @@ ADD script.sh /script.sh
 ADD authorized_keys /root/.ssh/authorized_keys
 ADD plugin/check_snmp_printer /usr/local/nagios/libexec/check_snmp_printer
 ADD plugin/check_tcptraffic /usr/local/nagios/libexec/check_tcptraffic
+ADD plugin/check_mem.pl /usr/local/nagios/libexec/check_mem.pl
 
 RUN mkdir /share \
  && chmod 755 /run.sh \
@@ -185,6 +186,7 @@ RUN mkdir /share \
 #Change plugin permission
  && chmod 755 /usr/local/nagios/libexec/check_snmp_printer \
  && chmod 755 /usr/local/nagios/libexec/check_tcptraffic \
+ && chmod 755 /usr/local/nagios/libexec/check_mem.pl \ 
 
 #Copy ngios and graph to /bk folder 
  && mkdir -p /bk/nagios \
