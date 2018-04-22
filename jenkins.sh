@@ -1,7 +1,7 @@
 #/bin/bash
 
 docker build --rm -t printer .
-docker rm -f printer
+#docker rm -f printer
 docker run -itd --name printer -p 8003:22 -p 8002:80 \
  --privileged \
  -v /sys/fs/cgroup:/sys/fs/cgroup:ro \
