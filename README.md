@@ -1,4 +1,4 @@
-# Template for deploy nagios docker of CentOS
+# Template for deploy nagios 4.4.3 docker of CentOS
 
 Testing or template of nagios monitoring printer
 
